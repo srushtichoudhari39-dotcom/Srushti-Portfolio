@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Srushti Choudhari, aspiring software developer.">
+  <title>Srushti Choudhari | Aspiring Software Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">SC<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+        <a href="#education">Education</a><a href="#certifications">Certifications</a><a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Srushti<br><span>Choudhari.</span></h1>
+        <h2>Aspiring Software Developer</h2>
+        <p class="intro">A B.Tech student interested in building useful applications and exploring software development, AI, and emerging technologies.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/srushtichoudhari39-dotcom" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/srushtichoudhari-0977443b8/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:srushtichoudhari39@gmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Learning today.<br><span>Creating tomorrow.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead">I'm a second-year B.Tech student at Dr. D. Y. Patil College of Engineering and Innovation, working towards becoming a software developer.</p>
+        <div class="about-detail"><p>I enjoy exploring ideas, learning new technologies, and turning concepts into practical projects. Through individual and group projects, I'm developing my problem-solving and application-building skills.</p><p>I'm currently focused on strengthening my programming foundations and gaining hands-on experience.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WHAT I'M LEARNING</p><h2>Skills & <span>tools</span></h2></div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><h3>Programming</h3><p>Python · C · C++ · JavaScript</p></article>
+          <article class="skill-card"><span class="skill-number">02</span><h3>Web development</h3><p>HTML · CSS · Flask · FastAPI · React</p></article>
+          <article class="skill-card"><span class="skill-number">03</span><h3>Areas of interest</h3><p>AI · Machine Learning · NLP · Problem Solving</p></article>
+          <article class="skill-card"><span class="skill-number">04</span><h3>Tools</h3><p>VS Code · GitHub · Vercel</p></article>
+        </div>
+        <p class="small-note">Edit this list to include only technologies you have personally used or are comfortable discussing.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading project-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects that turn<br><span>ideas into action.</span></h2></div><p class="heading-note">A mix of individual and collaborative work from my learning journey.</p></div>
+      <div class="filter-row" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All projects</button>
+        <button class="filter" data-filter="individual">Individual</button>
+        <button class="filter" data-filter="group">Group</button>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card" data-type="individual">
+          <div class="project-top"><span class="project-category">AI · FINTECH</span><span class="project-arrow">↗</span></div>
+          <h3>Credit Assistant</h3><p>An AI-driven credit-health platform that helps users understand credit factors and explore ways to improve their financial profile.</p>
+          <div class="tags"><span>FastAPI</span><span>React</span><span>Python</span></div>
+          <div class="project-bottom"><span class="project-type">Individual project</span><a href="https://github.com/srushtichoudhari39-dotcom" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+        </article>
+        <article class="project-card" data-type="individual">
+          <div class="project-top"><span class="project-category">CITY · DISCOVERY</span><span class="project-arrow">↗</span></div>
+          <h3>CitySaathi</h3><p>A city exploration platform designed to help people discover local places, navigate urban life, and make more informed choices.</p>
+          <div class="tags"><span>Web development</span><span>Maps</span><span>AI concepts</span></div>
+          <div class="project-bottom"><span class="project-type">Individual project</span><a href="https://github.com/srushtichoudhari39-dotcom" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+        </article>
+        <article class="project-card" data-type="group">
+          <div class="project-top"><span class="project-category">NLP · ENTERTAINMENT</span><span class="project-arrow">↗</span></div>
+          <h3>CineMatch</h3><p>A movie recommendation system that uses natural language processing techniques to help users discover movies.</p>
+          <div class="tags"><span>Python</span><span>Flask</span><span>NLP</span></div>
+          <div class="project-bottom"><span class="project-type">Group project</span><a href="https://github.com/srushtichoudhari39-dotcom" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+        </article>
+        <article class="project-card" data-type="group">
+          <div class="project-top"><span class="project-category">SUSTAINABILITY · E-WASTE</span><span class="project-arrow">↗</span></div>
+          <h3>MoolyaSetu</h3><p>A multilingual platform connecting informal e-waste collectors with authorized recyclers for fair valuation and traceable handover.</p>
+          <div class="tags"><span>AI-assisted valuation</span><span>Web platform</span><span>Accessibility</span></div>
+          <div class="project-bottom"><span class="project-type">Group project</span><a href="https://github.com/srushtichoudhari39-dotcom" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+        </article>
+        <article class="project-card" data-type="group">
+          <div class="project-top"><span class="project-category">AGRI-TECH · AI</span><span class="project-arrow">↗</span></div>
+          <h3>FarmBuddy</h3><p>A farming assistant concept supporting crop care with image-based condition insights, growing guidance, and reminders.</p>
+          <div class="tags"><span>Python</span><span>Flask</span><span>AI concepts</span></div>
+          <div class="project-bottom"><span class="project-type">Group project</span><a href="https://github.com/srushtichoudhari39-dotcom" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
+        </article>
+      </div>
+      <p class="small-note">Project links currently point to your GitHub profile. Replace each with its repository link when ready. Add your specific contribution to each group project before publishing.</p>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">MY ACADEMIC JOURNEY</p><h2><span>Education</span></h2></div>
+        <div class="education-card"><div class="edu-year">CURRENT</div><div><h3>Bachelor of Technology (B.Tech)</h3><p>Dr. D. Y. Patil College of Engineering and Innovation</p><p class="muted">Second year</p></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="certifications">
+      <div class="section-heading"><p class="eyebrow">CONTINUOUS LEARNING</p><h2>Certifications & <span>achievements</span></h2></div>
+      <div class="certificate-placeholder"><div class="certificate-icon">✳</div><div><h3>Coming soon</h3><p>Certifications and achievements will be added here. This section can be updated whenever you're ready.</p></div></div>
+    </section>
+
+    <section class="section section-alt" id="resume">
+      <div class="container resume-row"><div><p class="eyebrow">MY BACKGROUND</p><h2>Resume <span>coming soon.</span></h2><p class="muted">I'll add a downloadable resume here once it's ready.</p></div><span class="resume-mark">CV / 01</span></div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p><h2>Have an idea?<br><span>Let's talk.</span></h2>
+      <div class="contact-row"><a href="mailto:srushtichoudhari39@gmail.com">srushtichoudhari39@gmail.com</a><div class="contact-social"><a href="https://github.com/srushtichoudhari39-dotcom" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/srushtichoudhari-0977443b8/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Srushti Choudhari</span><span>Designed with curiosity.</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
